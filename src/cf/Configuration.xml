@@ -248,14 +248,14 @@
 			<Role>Администратор</Role>
 			<Constant>ОсновнаяОрганизация</Constant>
 			<Constant>ОсновнойСклад</Constant>
-			<Catalog>Товары</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Огранизации</Catalog>
 			<Catalog>Склады</Catalog>
+			<Catalog>Товары</Catalog>
 			<Document>Заказ</Document>
 			<Document>Заявка</Document>
-			<Document>ПриходТовара</Document>
 			<Document>ПередачаТовара</Document>
+			<Document>ПриходТовара</Document>
 			<Enum>СтатусыЗаявки</Enum>
 			<AccumulationRegister>ОстаткиТоваров</AccumulationRegister>
 			<AccumulationRegister>ТоварыКПередаче</AccumulationRegister>
