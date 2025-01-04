@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
-	<Configuration uuid="fee95063-9a72-44eb-a449-21b564e6481f">
+	<Configuration uuid="876df9c3-e1c7-4905-847d-e205cd49f815">
 		<InternalInfo>
 			<xr:ContainedObject>
 				<xr:ClassId>9cd510cd-abfc-11d4-9434-004095e12fc7</xr:ClassId>
-				<xr:ObjectId>b6d14783-8d09-40a3-a342-05315e6435e1</xr:ObjectId>
+				<xr:ObjectId>a5399f49-2080-4764-8d97-80a0758db8ee</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>9fcd25a0-4822-11d4-9414-008048da11f9</xr:ClassId>
-				<xr:ObjectId>bfe8de76-ced7-46bb-a186-2d5b798c890b</xr:ObjectId>
+				<xr:ObjectId>bc3bc96f-1324-448b-a746-5ee443be367c</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>e3687481-0a87-462c-a166-9f34594f9bba</xr:ClassId>
-				<xr:ObjectId>a6786c4a-70b1-4d2a-9d3f-441d6c5478f6</xr:ObjectId>
+				<xr:ObjectId>bdcabff3-7795-4faa-8ed6-14db72954cdb</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>9de14907-ec23-4a07-96f0-85521cb6b53b</xr:ClassId>
-				<xr:ObjectId>0852b45d-5c81-4dce-9876-fc69736b1537</xr:ObjectId>
+				<xr:ObjectId>f3e61d7d-a669-4f1c-9194-1aa88aabb7b7</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>51f2d5d8-ea4d-4064-8892-82951750031e</xr:ClassId>
-				<xr:ObjectId>3220d7c6-2655-4493-8efc-3d335168b266</xr:ObjectId>
+				<xr:ObjectId>55ede8fd-72e1-413f-9146-bacb41ddf7ac</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>e68182ea-4237-4383-967f-90c1e3370bc7</xr:ClassId>
-				<xr:ObjectId>026fac9b-535a-4e20-bebc-b43a4aa4c29f</xr:ObjectId>
+				<xr:ObjectId>e2eed210-3cd1-400c-8522-992fbcd53551</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>4c4495ed-77ec-4ffd-9c1b-687095675c37</xr:ObjectId>
+				<xr:ObjectId>ddf64916-10ec-48e2-a470-b981568dcc3a</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -245,6 +245,20 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Role>Администратор</Role>
+			<Constant>ОсновнаяОрганизация</Constant>
+			<Constant>ОсновнойСклад</Constant>
+			<Catalog>Товары</Catalog>
+			<Catalog>Контрагенты</Catalog>
+			<Catalog>Огранизации</Catalog>
+			<Catalog>Склады</Catalog>
+			<Document>Заказ</Document>
+			<Document>Заявка</Document>
+			<Document>ПриходТовара</Document>
+			<Document>ПередачаТовара</Document>
+			<Enum>СтатусыЗаявки</Enum>
+			<AccumulationRegister>ОстаткиТоваров</AccumulationRegister>
+			<AccumulationRegister>ТоварыКПередаче</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
