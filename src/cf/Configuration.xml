@@ -245,6 +245,11 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>Заявки</Subsystem>
+			<Subsystem>Закупки</Subsystem>
+			<Subsystem>ПередачаОборудования</Subsystem>
+			<Subsystem>Настройки</Subsystem>
+			<Subsystem>Обмен</Subsystem>
 			<Role>Администратор</Role>
 			<CommonTemplate>librdkafka_win64</CommonTemplate>
 			<CommonModule>Кафка</CommonModule>

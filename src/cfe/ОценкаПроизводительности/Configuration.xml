@@ -62,6 +62,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>ОценкаПроизводительности</Subsystem>
 			<SessionParameter>КомментарийЗамераВремени</SessionParameter>
 			<Role>НастройкаИОценкаПроизводительности</Role>
 			<CommonModule>ОценкаПроизводительности</CommonModule>
@@ -83,6 +84,8 @@
 			<Catalog>КлючевыеОперации</Catalog>
 			<Catalog>ПрофилиКлючевыхОпераций</Catalog>
 			<Document>Заказ</Document>
+			<Document>ПередачаТовара</Document>
+			<Document>ПриходТовара</Document>
 			<Enum>УровниПроизводительности</Enum>
 			<Report>ОценкаПроизводительности</Report>
 			<InformationRegister>ЗамерыВремени</InformationRegister>

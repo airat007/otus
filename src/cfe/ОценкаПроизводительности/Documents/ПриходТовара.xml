@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Document uuid="619264d8-128f-43c5-a5d6-331b591efa1b">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПриходТовара" category="Object">
+				<xr:TypeId>e9f7eb55-aa17-4ff1-b259-a987f71e0175</xr:TypeId>
+				<xr:ValueId>22bcc659-e2e0-471c-aa2c-db6c29783f64</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПриходТовара" category="Ref">
+				<xr:TypeId>494be36d-6ee0-484d-9f83-d7599d4948fa</xr:TypeId>
+				<xr:ValueId>cb9593f6-3ae0-4ebc-a320-110f76f53f43</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПриходТовара" category="Selection">
+				<xr:TypeId>1dfaf0bd-355c-4437-bcbf-4766a5960c62</xr:TypeId>
+				<xr:ValueId>85249c04-632c-40fc-91e6-bba6f358e9b2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПриходТовара" category="List">
+				<xr:TypeId>454e5f90-6275-4ba1-aeeb-c4e6acd0641d</xr:TypeId>
+				<xr:ValueId>8297a325-82e9-4bb3-a2d7-f7fba6e710aa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПриходТовара" category="Manager">
+				<xr:TypeId>74fe03c2-e15f-4136-a459-3a0403787bfa</xr:TypeId>
+				<xr:ValueId>c5a6d551-2cea-4846-a39b-e98d3595da49</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПриходТовара</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>32925c99-5443-47d8-82a1-74c62e3a000e</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>
