@@ -26,12 +26,6 @@
 			<ContextMenu name="СтатусКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="9"/>
 		</InputField>
-		<InputField name="Заявка" id="44">
-			<DataPath>Объект.Заявка</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ЗаявкаКонтекстноеМеню" id="45"/>
-			<ExtendedTooltip name="ЗаявкаРасширеннаяПодсказка" id="46"/>
-		</InputField>
 		<InputField name="Организация" id="10">
 			<DataPath>Объект.Организация</DataPath>
 			<EditMode>EnterOnInput</EditMode>
