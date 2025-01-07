@@ -246,8 +246,18 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Role>Администратор</Role>
+			<CommonTemplate>librdkafka_win64</CommonTemplate>
+			<CommonModule>Кафка</CommonModule>
+			<ScheduledJob>КафкаОтправитьЗаявки</ScheduledJob>
+			<ScheduledJob>КафкаПолучитьЗаявки</ScheduledJob>
+			<ScheduledJob>КафкаОтправитьЗаказы</ScheduledJob>
+			<ScheduledJob>КафкаПолучитьЗаказы</ScheduledJob>
 			<Constant>ОсновнаяОрганизация</Constant>
 			<Constant>ОсновнойСклад</Constant>
+			<Constant>КафкаАдрес</Constant>
+			<Constant>КафкаТопикЗаявок</Constant>
+			<Constant>КафкаТопикЗаказов</Constant>
+			<Constant>КафкаПолучатель</Constant>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Огранизации</Catalog>
 			<Catalog>Склады</Catalog>
@@ -257,6 +267,10 @@
 			<Document>ПередачаТовара</Document>
 			<Document>ПриходТовара</Document>
 			<Enum>СтатусыЗаявки</Enum>
+			<Enum>СостоянияИсходящихСообщений</Enum>
+			<DataProcessor>РаботаСКафкой</DataProcessor>
+			<InformationRegister>ОчередьИсходящихСообщенийЗаявок</InformationRegister>
+			<InformationRegister>ОчередьИсходящихСообщенийЗаказов</InformationRegister>
 			<AccumulationRegister>ОстаткиТоваров</AccumulationRegister>
 			<AccumulationRegister>ТоварыКПередаче</AccumulationRegister>
 		</ChildObjects>
