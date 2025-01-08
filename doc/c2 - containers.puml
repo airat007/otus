@@ -1,0 +1,44 @@
+@startuml
+
+' описание синтаксиса
+' https://github.com/plantuml-stdlib/C4-PlantUML
+' библиотеки C4
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+'!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+
+' линии без скруглений
+'skinparam Linetype ortho
+' персоны без прямоугольников
+SHOW_PERSON_PORTRAIT()
+
+title
+ <b>Передача бесплатных образцов продукции</b>
+end title 
+
+' контейнеры
+Person(Клиент, "Клиент", "")
+Person(Менеджер, "Менеджер по работе с клиентами", "")
+Person(Документовед, "Менеджер по оформлению документов", "")
+System_Boundary(Система, "Система") {
+    Container(Web_Приложение, "Web-приложение", "Интерфейс для клиентов")
+    Container(Шина_Данных, "Брокер сообщений", "Обеспечивает внутреннюю транспортную функциональность")
+    Container(1c_Приложение, "1c", "Содержит бизнес-логику и базу данных")
+}
+System_Ext(Email, "E-Mail System")
+
+' Cвязи
+Rel(Клиент, Web_Приложение, "Оформление заказа [HTTPS]")
+Rel(Менеджер, 1c_Приложение, "Согласование заказа")
+Rel(Документовед, 1c_Приложение, "Оформление передачи")
+
+BiRel(Web_Приложение, Шина_Данных, "Обмен данными [HTTPS/JSON]")
+BiRel(1c_Приложение, Шина_Данных, "Обмен данными  [HTTPS/JSON]")
+
+Rel(Web_Приложение, Email, "Отправка почты [SMTP/POP3]")
+Rel_U(Email, Клиент, "Отправка почты [SMTP/POP3]")
+
+' Расположение
+Lay_R(Менеджер, Документовед)
+
+@enduml
