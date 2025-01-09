@@ -1,0 +1,36 @@
+@startuml
+
+' описание синтаксиса
+' https://github.com/plantuml-stdlib/C4-PlantUML
+' библиотеки C4
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+'!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+
+' линии без скруглений
+'skinparam Linetype ortho
+' персоны без прямоугольников
+SHOW_PERSON_PORTRAIT()
+
+title
+ <b>Передача бесплатных образцов продукции</b>
+end title 
+
+' контейнеры
+Person(Клиент, "Клиент", "Оформление заявки")
+Person(Менеджер, "Менеджер по работе с клиентами", "Согласование заявки")
+Person(Документовед, "Менеджер по оформлению документов", "Оформление передачи")
+Container(Приложение, "Учетная система")
+System_Ext(Email, "E-Mail System")
+
+' Cвязи
+Rel(Клиент, Приложение, "")
+Rel(Менеджер, Приложение, "")
+Rel(Документовед, Приложение, "")
+Rel_L(Приложение, Email, "Отправка почты")
+Rel_U(Email, Клиент, "Отправка почты")
+
+' Расположение
+Lay_R(Менеджер, Документовед)
+
+@enduml
