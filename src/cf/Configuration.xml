@@ -273,11 +273,13 @@
 			<Document>ПриходТовара</Document>
 			<Enum>СтатусыЗаявки</Enum>
 			<Enum>СостоянияИсходящихСообщений</Enum>
+			<Report>ТоварыПереданные</Report>
 			<DataProcessor>РаботаСКафкой</DataProcessor>
 			<InformationRegister>ОчередьИсходящихСообщенийЗаявок</InformationRegister>
 			<InformationRegister>ОчередьИсходящихСообщенийЗаказов</InformationRegister>
 			<AccumulationRegister>ОстаткиТоваров</AccumulationRegister>
 			<AccumulationRegister>ТоварыКПередаче</AccumulationRegister>
+			<AccumulationRegister>ТоварыПереданные</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
